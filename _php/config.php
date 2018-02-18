@@ -10,7 +10,7 @@
 	
 	//-------------SERVER CONNECTION-------------
 	//connection info
-	$dbhost = 'mga-db.chdrdc01ua4v.us-east-2.rds.amazonaws.com';
+	$dbhost = '104.196.193.189';
 	$dbname = 'mga_db'; 
 	$dbuser = 'fcheeley';
 	$dbpass = 'fcheeley123';
