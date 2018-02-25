@@ -11,11 +11,12 @@ $P='facultyDashboard';
 	<!-- Sets up the dashboard. -->
 		<div id="main">
 			<?php //if(isset($_SESSION)){echo '<pre>'; print_r($_SESSION); echo '</pre>';}//error checking session	?>
-
+<!-- DISABLING CURRENT CODE!!!!!!!!!!!!!!!!!!!!!!!! DOWN TO LINE 52
 			<h2 class="center">Welcome <?php if(isset($_SESSION['FName'])){echo $FName . " " . $LName;}?></h2>
 
 			<br/><br/>
-			<!--<div class="dashboardIcon">
+			
+			<div class="dashboardIcon">
 				<a href="../_facultyPages/classes.php">
 					<img src="../_images/lecture.png" alt="Classes" />
 					<figcaption>Classes</figcaption>
@@ -35,6 +36,7 @@ $P='facultyDashboard';
 			<!--		<figcaption>Create New Survey</figcaption>-->
 			<!-- </a> -->
 			<!-- </div> -->
+			<!--
 			<div class="dashboardIcon">
 				<a href="settings.php">
 					<img src="../_images/settings.png" alt="Settings" />
@@ -46,13 +48,18 @@ $P='facultyDashboard';
 					<img src="../_images/notebook-1.png" alt="Feedback" />
 					<figcaption>Feedback</figcaption>
 				</a>
-			</div>-->
+			</div>
+ -->
+			
 			<div class="clear" ></div>
 
 		</div>
 	</div>
+<?php
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/_templates/footer.php');?>
+include($_SERVER['DOCUMENT_ROOT'].'/_templates/_footers/footer.php');
+?>
+
 
 </body>
 </html>
