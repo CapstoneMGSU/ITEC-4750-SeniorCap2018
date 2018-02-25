@@ -15,8 +15,7 @@ $P='facultyDashboard';
 			<h2 class="center">Welcome <?php if(isset($_SESSION['FName'])){echo $FName . " " . $LName;}?></h2>
 
 			<br/><br/>
-
-			<div class="dashboardIcon">
+			<!--<div class="dashboardIcon">
 				<a href="../_facultyPages/classes.php">
 					<img src="../_images/lecture.png" alt="Classes" />
 					<figcaption>Classes</figcaption>
@@ -47,7 +46,7 @@ $P='facultyDashboard';
 					<img src="../_images/notebook-1.png" alt="Feedback" />
 					<figcaption>Feedback</figcaption>
 				</a>
-			</div>
+			</div>-->
 			<div class="clear" ></div>
 
 		</div>
