@@ -14,6 +14,7 @@ if($LoginID !=0){
 		<div id="main">
 			<?php // if(isset($_SESSION)){echo '<pre>'; print_r($_SESSION); echo '</pre>';}//error checking session	?>
 			<h2 class="center">Welcome <?php if(!empty($FName)){echo $FName . " " . $LName;}?></h2>
+			<!--need to change the below code as requested in site appearance excel sheet-->
 			<!--<br/><br/>
 			<div class="dashboardIcon">
 				<a href="classes_student.php">
