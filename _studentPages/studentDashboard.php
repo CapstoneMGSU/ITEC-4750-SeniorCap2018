@@ -13,11 +13,8 @@ if($LoginID !=0){
 	<!-- Main Content Section-->
 		<div id="main">
 			<?php // if(isset($_SESSION)){echo '<pre>'; print_r($_SESSION); echo '</pre>';}//error checking session	?>
-
 			<h2 class="center">Welcome <?php if(!empty($FName)){echo $FName . " " . $LName;}?></h2>
-
-			<br/><br/>
-
+			<!--<br/><br/>
 			<div class="dashboardIcon">
 				<a href="classes_student.php">
 					<img src="../_images/lecture.png" alt="Classes" />
@@ -41,9 +38,8 @@ if($LoginID !=0){
 					<img src="../_images/notebook-1.png" alt="Feedback" />
 					<figcaption>Feedback</figcaption>
 				</a>
-			</div>
+			</div>-->
 			<div class="clear" ></div>
-
 		</div>
 	</div>
 <?php
