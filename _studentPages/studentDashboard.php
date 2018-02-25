@@ -1,6 +1,6 @@
 <?php
 // ++++ Change: Added Title 10/25 KM ++++
-//$title = 'Student Dashboard';
+$title = 'Student Dashboard';
 include('../_templates/_headers/studentHeader.php');
 include('../_templates/_nav/studentNav.php');
 include($_SERVER['DOCUMENT_ROOT'].'/_templates/_nav/getIDs.php');
@@ -13,9 +13,13 @@ if($LoginID !=0){
 	<!-- Main Content Section-->
 		<div id="main">
 			<?php // if(isset($_SESSION)){echo '<pre>'; print_r($_SESSION); echo '</pre>';}//error checking session	?>
+
+<!-- DISABLING CURRENT CODE!!!!!!!!!!!!!!!!!!!!!!!! DOWN TO LINE 52
+
 			<h2 class="center">Welcome <?php if(!empty($FName)){echo $FName . " " . $LName;}?></h2>
-			<!--need to change the below code as requested in site appearance excel sheet-->
-			<!--<br/><br/>
+
+			<br/><br/>
+
 			<div class="dashboardIcon">
 				<a href="classes_student.php">
 					<img src="../_images/lecture.png" alt="Classes" />
@@ -39,8 +43,10 @@ if($LoginID !=0){
 					<img src="../_images/notebook-1.png" alt="Feedback" />
 					<figcaption>Feedback</figcaption>
 				</a>
-			</div>-->
+			</div>
+-->
 			<div class="clear" ></div>
+
 		</div>
 	</div>
 <?php
@@ -49,3 +55,4 @@ include($_SERVER['DOCUMENT_ROOT'].'/_templates/_footers/footer.php');
 ?>
 </body>
 </html>
+
