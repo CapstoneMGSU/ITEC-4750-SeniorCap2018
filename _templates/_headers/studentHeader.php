@@ -26,7 +26,6 @@ else{ echo "Role not defined.";}
 <html lang="en">
 <head><!-- Builds basis of site. Sets style1 as the CSS for this page. -->
 	<meta charset="utf-8">
-	<!-- changed Knightly knowledge to Home-->
 	<title>Home<?php echo $title; ?></title>
 	<?php echo '<link rel="stylesheet" href="'.$server.'/_css/bootstrap.min.css" />';?>
 	<?php echo '<link rel="stylesheet" href="'.$server.'/_css/style1.css" />';?>
@@ -40,7 +39,6 @@ else{ echo "Role not defined.";}
 	</header>
 	
 	<div id="purpleBar">
-		<!-- changed Knightly knowledge to Home-->
 		<span class="lead">Home<?php echo $title; ?></a>
 	</div>
 
