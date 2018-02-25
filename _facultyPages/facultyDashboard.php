@@ -11,6 +11,7 @@ $P='facultyDashboard';
 	<!-- Sets up the dashboard. -->
 		<div id="main">
 			<?php //if(isset($_SESSION)){echo '<pre>'; print_r($_SESSION); echo '</pre>';}//error checking session	?>
+			<h2 class="center">Welcome <?php if(isset($_SESSION['FName'])){echo $FName . " " . $LName;}?></h2>
 <!-- DISABLING CURRENT CODE!!!!!!!!!!!!!!!!!!!!!!!! DOWN TO LINE 52
 			<h2 class="center">Welcome <?php if(isset($_SESSION['FName'])){echo $FName . " " . $LName;}?></h2>
 
