@@ -10,7 +10,7 @@
 		<a href="all_students.php">All Students</a>
 		<a href="mystudents.php">My Students</a>
 		<a href="add_students.php">Upload Students</a>
-		<!-- <a href="createsurveys.php">Create New Survey</a> -->
+		<!-- <a href="createsurveys.php">Create New Survey</a> -->-->
 		<!--<a href="settings.php">Settings</a>
 		<a href="facultyFeedback.php">Feedback</a>
 		<a href="yoursurveys.php">Your Surveys</a>
