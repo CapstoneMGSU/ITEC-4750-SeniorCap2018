@@ -1,9 +1,12 @@
 <?php ?>
 	<!-- Change: Updated facultyFeedback address 11/18 KM -->
 	<!-- Sets up data for the side navigation bar. -->
+	<!-- Note.This is a temperate menu until the new one is created. Added the Group pages just a way to navigate to it-->
 	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<a href="facultyDashboard.php">Home</a>
+		<a href="facultyCourses.php">Courses</a>
+		<a href="facultyGroups.php">Groups</a>
 		<a href="all_classes.php">All Classes</a>		
 		<a href="classes.php">My Classes</a>
 		<a href="add_class.php">Add Class</a>
