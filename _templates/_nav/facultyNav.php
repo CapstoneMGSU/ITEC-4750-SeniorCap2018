@@ -4,6 +4,8 @@
 	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<a href="facultyDashboard.php">Home</a>
+		<a href="facultyCourses.php">Courses</a>
+		<a href="facultyGroups.php">Groups</a>
 		<a href="all_classes.php">All Classes</a>		
 		<a href="classes.php">My Classes</a>
 		<a href="add_class.php">Add Class</a>
