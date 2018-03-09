@@ -124,5 +124,7 @@ include('../_templates/_nav/studentNav.php');
 	</div>
 	</div>	
 </main>
+<?php 
+include($_SERVER['DOCUMENT_ROOT'].'/_templates/_footers/facfooter.php');?>
 </body>
 </html>
