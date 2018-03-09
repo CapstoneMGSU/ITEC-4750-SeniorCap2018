@@ -3,7 +3,7 @@
 		<link href="../_css/footerstyle.css" rel="stylesheet" />
 </head>
 <!-- Change: Added Quicklinks to footer -->
-<div>
+<!-- <div>
 	<br/>
 	Visit:
 	<br/>
@@ -11,7 +11,8 @@
 	<a href="all_classes.php">All Classes</a><br/>
 	<a href="facultyDashboard.php">Home</a><br/><br/>
 </div>
-<div class = "clear"></div>
+-->
+<div class = "clear"></div> 
 	<footer>
 		<div id="purpleBar">
 			<div class="row">
