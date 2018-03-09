@@ -121,13 +121,11 @@ include('../_templates/_nav/studentNav.php');
 				<br>
 			</form>
 	</div>
+	</div>
+	</div>	
+</main>
 <?php 
 }
 include($_SERVER['DOCUMENT_ROOT'].'/_templates/_footers/footer.php');?>
-	</div>
-	</div>
-
-	
-</main>
 </body>
 </html>
