@@ -1,7 +1,4 @@
 <?php
-// ++++ Change: Adjusted indentation 9/8 KM ++++
-
-//Change: Updated for consistant paths.
 if(!isset($_SESSION['LoginID'])){include($_SERVER['DOCUMENT_ROOT'].'/_php/session.php');}
 include($_SERVER['DOCUMENT_ROOT'].'/_php/config.php');
 
@@ -15,11 +12,6 @@ if(isset($_SESSION['Role'])){
 		}
 	}
 }
-/*--
---- -- --- WORK FLAG
----This else should do something else...ideas? Maybe return to login? KM -- 8/29 AM
----
---*/
 else{ echo "Role not defined.";}
 ?>
 
