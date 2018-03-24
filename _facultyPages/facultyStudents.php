@@ -7,20 +7,13 @@ include($_SERVER['DOCUMENT_ROOT'].'/_templates/_nav/facultyNav.php');
 $P='facultyCourses';
 ?>
 
-
-
-<div class="wrapper">
-<main>	
-	<div class="content">
-				<div class="col-md-7 col-centered formatContainer">
-					<br>
-					<h4 class="center"><b>Place holder for Students</b></h4>
-						<img src="../_images/Students.png" alt="Place holder" />
-					<br>
-				</div>
-	</div>
+<!-- Builds table for classes. If classes have Expired the are not pulled. KM 9/2/17 -->
+<div class="container-fluid" style="padding: 20px 0px 15px 0px;">
+	<?php 
+	if($LoginID!=0){
+		include($_SERVER['DOCUMENT_ROOT'].'/_templates/_read/my_students.php');
+	}?>
 </div>
-		<br>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/_templates/_footers/footer.php');?>
 	</body>
 </html>
