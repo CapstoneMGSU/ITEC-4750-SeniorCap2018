@@ -3,8 +3,11 @@
 $title = 'Faculty Students';
 include($_SERVER['DOCUMENT_ROOT'].'/_templates/_headers/facultyHeader.php');
 include($_SERVER['DOCUMENT_ROOT'].'/_templates/_nav/facultyNav.php');
+include($_SERVER['DOCUMENT_ROOT'].'/_templates/_nav/getIDs.php');
+require($_SERVER['DOCUMENT_ROOT'].'/_php/_objects/stu_do.php');
+require($_SERVER['DOCUMENT_ROOT'].'/_php/_objects/report_do.php');
 // ++++ Change: Added Page Identifier 10/10 KM ++++
-$P='facultyCourses';
+$P='mystudents';
 ?>
 
 <!-- Builds table for classes. If classes have Expired the are not pulled. KM 9/2/17 -->
