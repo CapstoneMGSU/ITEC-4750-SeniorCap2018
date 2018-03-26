@@ -23,7 +23,7 @@ $P='facultyDashboard';
 				</a>
 			</div>
 			<div class="dashboardIcon">
-				<a href="yoursurveys.php">
+				<a href="facultysurveys.php">
 					<img src="../_images/yoursurveys.png" alt="Your Surveys" />
 					<figcaption>Your Surveys</figcaption>
 				</a>
