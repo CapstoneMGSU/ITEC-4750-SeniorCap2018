@@ -10,7 +10,7 @@
 			<!-- <a href="createsurveys.php">Create New Survey</a> -->
 		<a href="settings.php">Settings</a>
 		<a href="facultyFeedback.php">Feedback</a>
-		<a href="facultySurveys.php">Surveys</a>
+		<a href="facultysurveys.php">Surveys</a>
 		<a href="../_php/logout.php">Logout</a>
 	</div>
 	<div class="container-fluid">
