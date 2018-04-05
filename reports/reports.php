@@ -16,7 +16,7 @@ $sql = mysqli_query($con, "SELECT FName FROM login WHERE Role = 'Student' ORDER 
 			</div>
 			<div class="data">
 				<select class="form-dropdown" style="width:150px" id="student" name="student">
-					<option>Select a 
+				<option>Select a Student</option>
 					<?php
 					$menu=" ";
 					while ($row = mysqli_fetch_array($sql)){ 

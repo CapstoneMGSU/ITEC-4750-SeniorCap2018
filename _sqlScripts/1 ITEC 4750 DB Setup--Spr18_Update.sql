@@ -133,7 +133,18 @@ INSERT INTO `login` (`LoginID`, `Email`, `Pword`, `Role`, `FName`, `LName`) VALU
 (121, 'adam.hudnall@mga.edu', SHA1('ahudnall17'), 'Student', 'Adam', 'Hudnall'), 
 (122, 'angela.ivey@mga.edu', SHA1('livey17'), 'Student', 'Leigh', 'Ivey'),
 (123, 'katie.hodnett@mga.edu', SHA1('kmarkham17'), 'Student', 'Katie', 'Markham'),
-(124, 'michael.mathews@mga.edu', SHA1('mmathews17'), 'Student', 'Mike', 'Mathews');
+(124, 'michael.mathews@mga.edu', SHA1('mmathews17'), 'Student', 'Mike', 'Mathews'),
+
+-- 2018 Spring Team
+(125, 'michael.elder@mga.edu', SHA1('medler18'), 'Student', 'Michael', 'Elder'),
+(126, 'holly.belcher@mga.edu', SHA1('hbelcher18'), 'Student', 'Holly', 'Belcher'),
+(127, 'travis.castle@mga.edu', SHA1('tcastle18'), 'Student', 'Travis', 'Castle'),
+(128, 'jack.carter@mga.edu', SHA1('jcarter18'), 'Student', 'Jack', 'Carter'),
+(129, 'justin.braer@mga.edu', SHA1('jbraer18'), 'Student', 'Justin', 'Braer'),
+(130, 'fernandex.cheely@mga.edu', SHA1('fcheely18'), 'Student', 'Fernandex', 'Cheely'),
+(131, 'srujana.chandupatla@mga.edu', SHA1('schandupatla18'), 'Student', 'Srujana', 'Chandupatla'),
+(132, 'evan.blain@mga.edu', SHA1('eblain18'), 'Student', 'Evan', 'Blain'),
+(133, 'james.dowdy@mga.edu', SHA1('jdowdy18'), 'Student', 'James', 'Dowdy');
 
 -- --------------------------------------------------------
 --
