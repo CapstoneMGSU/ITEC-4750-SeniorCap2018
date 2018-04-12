@@ -3,6 +3,7 @@
 $title = 'Faculty Feed Back';
 include($_SERVER['DOCUMENT_ROOT'].'/_templates/_headers/facultyHeader.php');
 include($_SERVER['DOCUMENT_ROOT'].'/_templates/_nav/facultyNav.php');
+require($_SERVER['DOCUMENT_ROOT'].'/_php/_objects/drop_do.php');
 // ++++ Change: Added Page Identifier 10/10 KM ++++
 $P='facultyCourses';
 ?>
@@ -19,7 +20,14 @@ $P='facultyCourses';
 							<tr><th>Survey</th><th>Question</th><th>Total Replies</th></tr>
 							<tr>
 								<td><select>
-										<option></option>
+										<option value="0" selected>Select Question</option>
+					<?php 
+						$dropdo = new DROP_DO();
+						$rows=$dropdo->surveyQuestions();	// Populate selection from general survey data
+						foreach($rows AS $q){
+							echo ' <option value="'.$q['QuestionID'].'">'.$q['QuestionTxt'].'</option>';
+						}
+					?>
 									</select>
 								</td>
 								<td><select>
