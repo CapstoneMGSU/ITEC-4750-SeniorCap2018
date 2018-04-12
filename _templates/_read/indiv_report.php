@@ -65,9 +65,10 @@ foreach($ro as $e){
 	}
 	//Close Table		
 	echo '</table><br/>';
-	if($Role=="Student"){ echo '<a class="btn btn-primary btn-lg submit" href="../../../_studentPages/yoursurveys_student.php">Surveys Menu</a>
-	<br/>';}
+	
 }
+if($Role=="Student"){ echo '<a class="btn btn-primary btn-lg submit" href="../../../_studentPages/yoursurveys_student.php">Surveys Menu</a>
+	<br/>';}
 ?>
 
 
