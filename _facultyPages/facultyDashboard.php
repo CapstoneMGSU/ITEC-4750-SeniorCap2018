@@ -1,6 +1,6 @@
 <?php
 // ++++ Change: Added Title 10/25 KM ++++
-$title = 'Faculty Dashboard';
+//$title = 'Faculty Dashboard';
 include($_SERVER['DOCUMENT_ROOT'].'/_templates/_headers/facultyHeader.php');
 include($_SERVER['DOCUMENT_ROOT'].'/_templates/_nav/facultyNav.php');
 // ++++ Change: Added Page Identifier 10/10 KM ++++
@@ -9,13 +9,14 @@ $P='facultyDashboard';
 
 	<div class="wrapper">
 	<!-- Sets up the dashboard. -->
-		<div id="main">
+	  <div id="main">
 			<?php //if(isset($_SESSION)){echo '<pre>'; print_r($_SESSION); echo '</pre>';}//error checking session	?>
-
+			<h2 class="center">Welcome <?php if(isset($_SESSION['FName'])){echo $FName . " " . $LName;}?></h2>
+  <!-- DISABLING CURRENT CODE!!!!!!!!!!!!!!!!!!!!!!!! DOWN TO LINE 52
 			<h2 class="center">Welcome <?php if(isset($_SESSION['FName'])){echo $FName . " " . $LName;}?></h2>
 
 			<br/><br/>
-
+			
 			<div class="dashboardIcon">
 				<a href="../_facultyPages/classes.php">
 					<img src="../_images/lecture.png" alt="Classes" />
@@ -36,6 +37,7 @@ $P='facultyDashboard';
 			<!--		<figcaption>Create New Survey</figcaption>-->
 			<!-- </a> -->
 			<!-- </div> -->
+			<!--
 			<div class="dashboardIcon">
 				<a href="settings.php">
 					<img src="../_images/settings.png" alt="Settings" />
@@ -48,12 +50,15 @@ $P='facultyDashboard';
 					<figcaption>Feedback</figcaption>
 				</a>
 			</div>
-			<div class="clear" ></div>
+ -->
+		  <div class="clear" ></div>
 
 		</div>
 	</div>
+<?php
 
+include($_SERVER['DOCUMENT_ROOT'].'/_templates/_footers/footer.php');
+?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/_templates/_footers/footer.php');?>
-
 </body>
 </html>
