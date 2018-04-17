@@ -20,18 +20,20 @@ $P='facultyCourses';
 							<tr><th>Survey</th><th>Question</th><th>Total Replies</th></tr>
 							<tr>
 								<td><select>
+										<option value="0" selected>Select Survey</option>
+					
+									</select>
+								</td>
+								<td><select>
 										<option value="0" selected>Select Question</option>
-					<?php 
+									<?php 
 						$dropdo = new DROP_DO();
 						$rows=$dropdo->surveyQuestions();	// Populate selection from general survey data
 						foreach($rows AS $q){
 							echo ' <option value="'.$q['QuestionID'].'">'.$q['QuestionTxt'].'</option>';
 						}
 					?>
-									</select>
-								</td>
-								<td><select>
-										<option></option>
+									
 									</select>
 								</td>
 								<td>"replies info here"</td>
