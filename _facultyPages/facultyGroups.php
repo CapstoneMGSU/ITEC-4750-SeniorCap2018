@@ -75,8 +75,11 @@ $P='facultyGroups';
 					<br/>
 					<div class="clear"></div>
 				</div>
+			</div>
 	</div>
 </div>
+	</main>
+	</div>
 		<br>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/_templates/_footers/footer.php');?>
 	</body>
