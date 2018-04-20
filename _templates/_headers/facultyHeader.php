@@ -40,6 +40,6 @@ else{ echo "Role not defined.";}
 	</header>
 
 	<div id="purpleBar">
-		<span class="lead">Knightly Knowledge <?php if(isset($title)){echo " - ".$title;}?></span>
+		<span class="lead">Home<?php if(isset($title)){echo " - ".$title;}?></span>
 	</div>
 <?php ?>
