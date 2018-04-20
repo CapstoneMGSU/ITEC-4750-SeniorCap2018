@@ -4,6 +4,10 @@ $title = 'Your Surveys';
 include($_SERVER['DOCUMENT_ROOT'].'/_templates/_headers/facultyHeader.php');
 include($_SERVER['DOCUMENT_ROOT'].'/_templates/_nav/facultyNav.php');
 // ++++ Change: Added survey_do object 10/28 KM ++++
+
+//++++ CHANGE:added profile_do and survey_model 3/26/18 FC ++++
+require($_SERVER['DOCUMENT_ROOT'].'/_php/_objects/profile_do.php');
+require($_SERVER['DOCUMENT_ROOT'].'/_php/_models/survey_model.php');
 require($_SERVER['DOCUMENT_ROOT'].'/_php/_objects/survey_do.php');
 include($_SERVER['DOCUMENT_ROOT'].'/_templates/_nav/getIDs.php');
 
