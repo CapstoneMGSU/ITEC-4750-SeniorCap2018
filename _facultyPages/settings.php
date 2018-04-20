@@ -17,7 +17,7 @@ include($_SERVER['DOCUMENT_ROOT'].'/_templates/_nav/facultyNav.php');
 			include($_SERVER['DOCUMENT_ROOT'].'/_templates/forgotpassword.php');
 			?>	
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/_templates/_footers/facfooter.php');?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/_templates/_footers/footer.php');?>
 </body>
 </html>
 
