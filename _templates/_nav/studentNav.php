@@ -8,10 +8,11 @@
 		<?php	
 			if($P='yoursurveys_student'){
 				echo '<span>Your Surveys</span>';
-			else{
+			}
+			if($P!='yoursurveys_student'){
 				echo '<a href="yoursurveys_student.php">Your Surveys</a>';
 			}
-			}
+			
 			?>
 		<!-- <a href="createnew.php">Create New Survey</a> -->
 		<a href="studentSettings.php">Settings</a>
