@@ -5,15 +5,8 @@
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<a href="studentDashboard.php">Home</a>
 		<a href="classes_student.php">Classes</a>
-		<?php	
-			if($P='yoursurveys_student'){
-				echo '<span class="pointer">Your Surveys</span>';
-			}
-			if($P!='yoursurveys_student'){
-				echo '<a href="yoursurveys_student.php">Your Surveys</a>';
-			}
+		<a href="yoursurveys_student.php">Your Surveys</a>
 			
-			?>
 		<!-- <a href="createnew.php">Create New Survey</a> -->
 		<a href="studentSettings.php">Settings</a>
 		<a href="studentFeedback.php">Feedback</a>
