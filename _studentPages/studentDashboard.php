@@ -15,7 +15,6 @@ if($LoginID !=0){
 			<?php // if(isset($_SESSION)){echo '<pre>'; print_r($_SESSION); echo '</pre>';}//error checking session	?>
 			<h2 class="center">Welcome <?php if(!empty($FName)){echo $FName . " " . $LName;}?></h2>
 
-<!-- DISABLING CURRENT CODE!!!!!!!!!!!!!!!!!!!!!!!! DOWN TO LINE 52
 
 			<h2 class="center">Welcome <?php if(!empty($FName)){echo $FName . " " . $LName;}?></h2>
 
@@ -45,7 +44,7 @@ if($LoginID !=0){
 					<figcaption>Feedback</figcaption>
 				</a>
 			</div>
--->
+
 			<div class="clear" ></div>
 
 		</div>
