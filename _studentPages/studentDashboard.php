@@ -2,7 +2,7 @@
 // ++++ Change: Added Title 10/25 KM ++++
 //$title = 'Student Dashboard';
 include('../_templates/_headers/studentHeader.php');
-//include('../_templates/_nav/studentNav.php');
+include('../_templates/_nav/studentNav2.php');
 include($_SERVER['DOCUMENT_ROOT'].'/_templates/_nav/getIDs.php');
 $P='studentDashboard';
 if($LoginID !=0){
