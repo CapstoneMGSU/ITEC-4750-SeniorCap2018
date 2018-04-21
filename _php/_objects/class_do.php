@@ -81,12 +81,13 @@ class Class_DO{
 		if(!empty($LoginID)){
 			include($_SERVER['DOCUMENT_ROOT'].'/_php/config.php');
 			//Load by LoginID
-			$sql = "SELECT class.ClassID, ClassNO, ClassName, ExpDate, class.SemesterID, SemesterName, Year
-				FROM((class
+			$sql = "SELECT class.ClassID, GroupName, GroupID, ClassNO, ClassName, ExpDate, class.SemesterID, SemesterName, Year
+				FROM(((class
 				INNER JOIN class_assign ON class.ClassID=class_assign.ClassID)
 				INNER JOIN semester ON semester.SemesterID=class.SemesterID)
+				INNER JOIN cgroup ON class.ClassID=cgroup.ClassID)
 				WHERE class_assign.LoginID = '$LoginID'&& DATEDIFF(ExpDate, NOW())>0
-				ORDER BY class.ClassID";//++++ Change: Order by ClassID 11/14 KM++++	
+				ORDER BY class.ClassID";//++++ Change: Order by ClassID 11/14 KM++++		
 			$getClass = mysqli_query($con, $sql); 
 			// output data of each row
 			$all_rows = array();
