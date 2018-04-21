@@ -24,7 +24,7 @@ include($_SERVER['DOCUMENT_ROOT'].'/_php/_objects/login_do.php');
 					<!-- Register and forgot password -->
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-9">
-							<a href=##>Register</a> &#8226;
+							<a href=register_new.php>Register</a> &#8226;
 							<a href="forgot_password.php?password=forgotten">Forgot Password<a>
 						</div>
 					</div>
