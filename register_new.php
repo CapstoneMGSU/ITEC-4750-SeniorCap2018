@@ -4,7 +4,7 @@ $title = 'Student Settings';
  include($_SERVER['DOCUMENT_ROOT'].'/_php/config.php');
  include($_SERVER['DOCUMENT_ROOT'].'/_templates/mainHeader.php');
  require($_SERVER['DOCUMENT_ROOT'].'/_php/_objects/stu_do.php');
- require($_SERVER['DOCUMENT_ROOT'].'/_php/_objects/profile_do.php');
+ require($_SERVER['DOCUMENT_ROOT'].'/_php/_objects/profile_do2.php');
  require($_SERVER['DOCUMENT_ROOT'].'/_php/_models/profile_model.php');
  $P='studentSettings';
   // ++++ Change: Check for login on student Settings 11/18 KM Page ++++
