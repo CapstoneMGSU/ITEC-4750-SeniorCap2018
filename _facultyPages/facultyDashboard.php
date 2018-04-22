@@ -23,7 +23,7 @@ $P='facultyDashboard';
 				</a>
 			</div>
 			<div class="dashboardIcon">
-				<a href="yoursurveys.php">
+				<a href="facultysurveys.php">
 					<img src="../_images/yoursurveys.png" alt="Your Surveys" />
 					<figcaption>Your Surveys</figcaption>
 				</a>
@@ -53,7 +53,7 @@ $P='facultyDashboard';
 		</div>
 	</div>
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/_templates/footer.php');?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/_templates/_footers/footer.php');?>
 
 </body>
 </html>
