@@ -18,7 +18,7 @@
 ?>			
 			<div class="row">
 			<div class="col-md-9 col-centered table-responsive">			
-				<table class="table-responsive">
+				<table class="table table-responsive">
 				<thead>
 				<caption id="table-caption">Currently Enrolled Students
 					</caption>
