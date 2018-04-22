@@ -24,14 +24,15 @@ include($_SERVER['DOCUMENT_ROOT'].'/_php/_objects/login_do.php');
 					<!-- Register and forgot password -->
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-9">
-							<a href=##>Register</a> &#8226;
+							<a href=register_new.php>Register</a> &#8226;
 							<a href="forgot_password.php?password=forgotten">Forgot Password<a>
 						</div>
 					</div>
 					<!-- Submit form  -->
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-9">
-							<input type="submit" value="Login" name="Login" class="btn btn-primary btn-lg submit">
+							<input type="submit" value="Login" name="Login" class="btn btn-primary btn-lg submit"
+							onclick=" if (document.getElementById('userName').value !=='' && document.getElementById('password').value !=='') return confirm('By clicking Login, you agree to abide by the terms of the Middle Georgia State University IT and Electronic Communications Policy. A copy of this policy can be viewed on the intranet. The type of material you access on the Internet could be monitored and filtered.');">
 						</div>
 					</div>
 					<!-- ++++ Change: Removed errorBlock handled in Login_DO rather than SESSION ++++ -->

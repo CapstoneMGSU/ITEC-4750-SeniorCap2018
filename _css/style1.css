@@ -13,16 +13,20 @@
 
 /* BODY */
 body { text-align:center; font-family:Arial, Helvetica, sans-serif; background-color:#FFFFFF; margin: 0; }
-#main { transition: margin-left .5s; padding: 16px; text-align: left; font-size:1.1em;}
+/*changed text-align from left to center*/
+#main { transition: margin-left .5s; padding: 16px; text-align: center; font-size:1.1em;}
 .wrapper {width:75%; margin:0 auto ;max-width:960px; background-color:#FFFFFF; padding:0 4%}
 .dashboardIcon { float: left; margin-left: 200px; padding-bottom: 100px; }
 .logo { margin-top: 0px; width: 60%; }
+.wrapperFeedback {width:100%; margin:0 auto ;max-width:4000px; background-color:#FFFFFF; padding:0 4%}
+.feedback_table {width:100%; margin: auto; position: relative;}
+.feedback_table th {text-align: center; width: 41%;}
+.feedback_table select {width: 100%;}
 
 /* HEADER */
 header { background-color: #FFFFFF; width: 100%; margin:0px auto;}
-
-
-#purpleBar { background-color: #42337E; color: #FFFFFF; padding: 20px; text-align: left; transition: margin-left .5s; }
+/*changed text-align to center*/
+#purpleBar { background-color: #42337E; color: #FFFFFF; padding: 20px; text-align: center; transition: margin-left .5s; }
 
 /* POINTER */
 .pointer { font-size:40px; cursor: pointer; float: left; margin-left: 15px; margin-top: 10px; }
