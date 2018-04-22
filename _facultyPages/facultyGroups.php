@@ -18,10 +18,10 @@ $P='facultyGroups';
 
 
 
-<div class="wrapper">
+
 <main>	
 	<div class="container-fluid" style="padding: 20px 0px 15px 0px;">
-				<div>
+				<div >
 					<h2>Groups</h2>
 					<div>
 						<?php	
@@ -36,8 +36,8 @@ $P='facultyGroups';
 								if(!empty($rows)){
 									?>		
 									<div class="row">
-									<div class="col-md-10 col-centered table-responsive">
-										<table class="table-responsive">
+									<div class="col-md-10 col-centered">
+										<table class="table table-responsive">
 										<thead>
 										<tr>
 											<th class="col-sm-2">Class ID</th>
@@ -51,6 +51,7 @@ $P='facultyGroups';
 										</thead>
 
 										<?php
+
 										//builds table with class data	
 										foreach ($rows as $value){
 											echo '<tr>';
@@ -58,7 +59,8 @@ $P='facultyGroups';
 												echo 	$value['ClassID'].'</a></td>'; // links back to class_page.php
 												echo '<td class="col-sm-2">'.$value['ClassNO'].'</td>';
 												echo '<td class="col-sm-3"><a href="class_page.php?cid='.$value['ClassID'].'">'.$value['ClassName'].'</td>';
-												echo '<td class="col-sm-2">'.$value['GroupName'].'</td>';
+												echo '<td class="col-sm-2">' . '<a href="class_group.php?gid='.$value['GroupID'].'&gname='.$value['GroupName'].'">';
+												echo   $value['GroupName'] . '</a></td>'; // links to group page for this group
 												echo '<td class="col-sm-1">'.$value['SemesterName'].' '.$value['Year'].'</td>';
 												echo '<td class="col-sm-2">'.$value['ExpDate'].'</td>';
 												echo '<td class="col-sm-1">';
@@ -77,9 +79,10 @@ $P='facultyGroups';
 			</div>
 	</div>
 </div>
-	</main>
-	</div>
+</main>
+
 		<br>
+
 <?php include($_SERVER['DOCUMENT_ROOT'].'/_templates/_footers/footer.php');?>
 	</body>
 </html>
