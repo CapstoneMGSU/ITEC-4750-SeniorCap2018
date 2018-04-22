@@ -30,7 +30,7 @@ $P='facultyGroups';
 							if(!isset($LoginID) || empty($LoginID)){ echo '<div class="error">ID Not Found</div>'; }
 							if(!empty($LoginID)){
 								$classdo = new Class_DO();
-								$rows=$classdo->loadByLoginID($LoginID);
+								$rows=$classdo->loadByLoginID2($LoginID);
 								// ++++ Change: Added if statement to hide table if empty 9/24 KM ++++
 								if(empty($rows)){echo '<div> No currently enrolled in classes.</div>';}
 								if(!empty($rows)){
